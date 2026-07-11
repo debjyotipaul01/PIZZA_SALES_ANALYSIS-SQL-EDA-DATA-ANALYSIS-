@@ -1,112 +1,106 @@
 # PIZZA_SALES_ANALYSIS-SQL-EDA-DATA-ANALYSIS-
-# 🍕 Pizza Sales Analysis Using SQL
 
 <div align="center">
 
-![SQL](https://img.shields.io/badge/SQL-MySQL-blue?style=for-the-badge&logo=mysql)
-![Project](https://img.shields.io/badge/Project-Data%20Analysis-success?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-orange?style=for-the-badge)
+# 🍕 Pizza Sales Analysis using SQL
 
-### 📊 Transforming Raw Pizza Sales Data into Actionable Business Insights
+### 📊 Turning Raw Data into Business Insights
+
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=26&pause=1000&color=F97316&center=true&vCenter=true&width=700&lines=SQL+Data+Analysis;Business+Insights;Pizza+Sales+Analytics;Data+Driven+Decision+Making" />
+
+<br>
+
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-Data%20Analysis-blue?style=for-the-badge)
+![GitHub](https://img.shields.io/badge/GitHub-Project-black?style=for-the-badge&logo=github)
+![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
+
+
+⭐ **A complete SQL Business Analysis Project with Real Business Insights**
 
 </div>
 
 ---
 
-# 📌 Project Overview
+# 🚀 Project Overview
 
-This project analyzes a real-world **Pizza Sales Dataset** using **SQL** to uncover customer purchasing behavior, revenue trends, product performance, and sales patterns.
+This project analyzes a **Pizza Sales Database** using **MySQL** to uncover valuable business insights from customer purchasing behavior.
 
-The analysis demonstrates how SQL can be used to answer business questions through data-driven insights.
+The objective is to answer real business questions using SQL and transform raw transactional data into meaningful insights that help improve sales strategies and business decisions.
 
 ---
 
-# 🎯 Business Objectives
+# 🎯 Business Questions Answered
 
-✔ Analyze overall sales performance
+✅ Total Orders
 
-✔ Identify customer ordering patterns
+✅ Total Revenue
 
-✔ Discover top-performing pizza categories
+✅ Total Pizzas Sold
 
-✔ Find premium and best-selling products
+✅ Highest Priced Pizza
 
-✔ Understand hourly order distribution
+✅ Most Popular Pizza Size
 
-✔ Generate business insights for decision-making
+✅ Best Selling Pizza
+
+✅ Category-wise Sales
+
+✅ Pizza Variety Distribution
+
+✅ Hourly Sales Trend
 
 ---
 
 # 🛠 Tech Stack
 
-- SQL
-- MySQL
-- Relational Database
-- Data Analysis
-- Business Intelligence
+| Tool | Purpose |
+|-------|----------|
+| 🐬 MySQL | Database |
+| 💻 SQL | Data Analysis |
+| 📈 Business Analytics | Insights |
+| 📊 Excel | Validation |
 
 ---
 
-# 📂 Database Schema
+# 🗂 Database Schema
 
-The project uses four relational tables:
-
-- **Orders**
-- **Order Details**
-- **Pizzas**
-- **Pizza Types**
-
-Relationship:
-
-```
+```text
 Orders
    │
-   │
+   ▼
 Order Details
    │
-   │
+   ▼
 Pizzas
    │
-   │
+   ▼
 Pizza Types
 ```
 
 ---
 
-# 📊 Key Business Insights
+# 📈 Project Highlights
 
-## 📌 Total Orders
+<div align="center">
 
-- **21,350 Orders**
+| 📌 Metric | 📊 Value |
+|-----------|----------|
+| 🛒 Total Orders | **21,350** |
+| 🍕 Pizzas Sold | **49,574** |
+| 💰 Revenue | **₹817,860** |
+| 👑 Premium Pizza | **The Greek XXL** |
+| 💵 Highest Price | **₹35.95** |
 
----
-
-## 💰 Total Revenue
-
-- **₹817,860**
-
----
-
-## 🍕
-
-Total Pizzas Sold
-
-- **49,574 Pizzas**
+</div>
 
 ---
 
-## 👑 Highest Priced Pizza
+# 🏆 Key Insights
 
-**The Greek XXL**
+### 🍕
 
-Price:
-
-**₹35.95**
-
----
-
-## 📏 Most Popular Pizza Size
+Most Popular Pizza Size
 
 🥇 Large (L) → **18,526 Orders**
 
@@ -116,156 +110,139 @@ Price:
 
 ---
 
-## 🔥 Most Ordered Pizza
+### 🔥 Most Ordered Pizza
 
 **The Soppressata Pizza**
 
-Orders:
-
-**961**
+📦 Total Orders: **961**
 
 ---
 
-## 🍕 Category-wise Quantity Sold
+### 🍕 Category-wise Quantity Sold
 
 | Category | Quantity |
-|-----------|----------|
-| Classic | 14,888 |
-| Supreme | 11,987 |
-| Chicken | 11,050 |
-| Veggie | 11,049 |
+|-----------|-----------|
+| 🟠 Classic | **14,888** |
+| 🔴 Supreme | **11,987** |
+| 🟢 Chicken | **11,050** |
+| 🟣 Veggie | **11,049** |
 
 ---
 
-## 📦 Pizza Variety Distribution
+### 📦 Pizza Variety
 
 | Category | Pizza Types |
 |-----------|-------------|
-| Classic | 8 |
-| Supreme | 9 |
-| Veggie | 9 |
-| Chicken | 6 |
+| Classic | **8** |
+| Supreme | **9** |
+| Veggie | **9** |
+| Chicken | **6** |
 
 ---
 
-## ⏰ Hourly Order Analysis
+### ⏰ Peak Ordering Time
 
-Peak ordering occurs during evening hours, indicating higher customer demand during dinner time.
-
----
-
-# 📁 SQL Analysis Covered
-
-- Total Orders
-- Total Revenue
-- Highest Priced Pizza
-- Most Popular Pizza Size
-- Top Ordered Pizza
-- Category-wise Sales
-- Category Distribution
-- Hourly Order Distribution
+Customer orders are concentrated during **evening hours**, making dinner time the busiest sales period.
 
 ---
 
-# 📈 Skills Demonstrated
+# 💡 SQL Concepts Used
 
-- SQL Joins
-- Aggregate Functions
+- INNER JOIN
 - GROUP BY
 - ORDER BY
 - COUNT()
 - SUM()
-- Business Analysis
-- Data Cleaning
-- Data Exploration
-- Relational Database Concepts
+- Aggregate Functions
+- Aliases
+- Sorting
+- Business KPIs
 
 ---
 
-# 🚀 Learning Outcomes
+# 📂 Repository Structure
 
-This project strengthened my understanding of:
-
-- Writing complex SQL queries
-- Business problem solving using data
-- Data aggregation techniques
-- Customer behavior analysis
-- KPI reporting
-- SQL-based analytics
+```
+📦 Pizza-Sales-Analysis
+│
+├── 📁 Dataset
+├── 📁 SQL Queries
+├── 📄 README.md
+├── 🖼 ER_Diagram.png
+├── 📑 Pizza Sales Report.pdf
+└── 📊 Dashboard
+```
 
 ---
 
 # 📸 Project Preview
 
-> Add screenshots of your SQL queries or dashboards here.
+> Add screenshots here
 
-Example:
-
-```
-images/
-├── ER_Diagram.png
-├── SQL_Query_Results.png
-├── Dashboard.png
-```
+| SQL Query | Output |
+|------------|---------|
+| ![](images/query1.png) | ![](images/output1.png) |
 
 ---
 
-# 📌 Repository Structure
+# 🎯 Skills Demonstrated
 
-```
-Pizza-Sales-Analysis/
-│
-├── Dataset/
-├── SQL Queries/
-├── README.md
-├── ER Diagram.png
-└── Pizza Sales Analysis Report.pdf
-```
+✨ SQL
 
----
+✨ Data Cleaning
 
-# ⭐ Future Improvements
+✨ Business Analysis
 
-- Power BI Dashboard
-- Tableau Dashboard
-- Python EDA
-- Forecasting Sales
-- Customer Segmentation
+✨ Data Exploration
+
+✨ Relational Database
+
+✨ KPI Reporting
+
+✨ Problem Solving
 
 ---
 
-# 🙋 About Me
+# 🚀 Future Enhancements
 
-**Debjyoti Paul**
+- 📊 Power BI Dashboard
+- 📈 Tableau Dashboard
+- 🐍 Python EDA
+- 🤖 Sales Forecasting
+- 📉 Customer Segmentation
 
-📊 Aspiring Data Analyst
+---
+
+# 👨‍💻 About Me
+
+## **Debjyoti Paul**
+
+🎯 Aspiring Data Analyst
 
 ### Skills
 
-- SQL
-- Excel
-- Power BI
-- Tableau
-- Python
+💙 SQL
 
-🔗 **LinkedIn:** *(Add your profile link)*
+💚 Power BI
 
-📧 **Email:** *(Add your email)*
+💛 Excel
 
----
+🧡 Tableau
 
-# ⭐ If you found this project useful...
+❤️ Python
 
-Give this repository a **Star ⭐**
+🔗 **LinkedIn:** *Add Your Profile Link*
 
-It motivates me to build more Data Analytics projects!
+⭐ If you like this project, don't forget to **Star ⭐ the repository!**
 
 ---
 
 <div align="center">
 
-### ⭐ Thanks for Visiting ⭐
+## ⭐ Thanks for Visiting ⭐
 
-**Happy Learning • Happy Querying 🍕📊**
+### 🍕 Built with SQL • Data • Analytics
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=F97316&height=120&section=footer"/>
 
 </div>
